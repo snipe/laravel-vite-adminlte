@@ -6,11 +6,16 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.31",
+        "sass": "^1.77.4",
         "vite": "^5.0"
     },
     "dependencies": {
-        "admin-lte": "^3.2.0"
+        "admin-lte": "^3.2.0",
+        "bootstrap": "^5.3.3"
     }
 }
