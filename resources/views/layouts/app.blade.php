@@ -16,7 +16,7 @@
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css" integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q=" crossorigin="anonymous">
     <!--end::Fonts-->
-    
+
 
     <!--begin::Third Party Plugin(Bootstrap Icons)-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.min.css" integrity="sha256-Qsx5lrStHZyR9REqhUF8iQt73X06c8LGIUPzpOhwRrI=" crossorigin="anonymous">
@@ -72,7 +72,7 @@
                             <!--begin::Message-->
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="../../../dist/assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 rounded-circle me-3">
+                                    <img src="https://placehold.co/100x100" alt="User Avatar" class="img-size-50 rounded-circle me-3">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h3 class="dropdown-item-title">
@@ -98,7 +98,7 @@
                             <!--begin::Message-->
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="../../../dist/assets/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 rounded-circle me-3">
+                                    <img src="https://placehold.co/100x100" alt="User Avatar" class="img-size-50 rounded-circle me-3">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h3 class="dropdown-item-title">
@@ -124,7 +124,7 @@
                             <!--begin::Message-->
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="../../../dist/assets/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 rounded-circle me-3">
+                                    <img src="https://placehold.co/100x100" alt="User Avatar" class="img-size-50 rounded-circle me-3">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h3 class="dropdown-item-title">
@@ -150,6 +150,7 @@
                     </div>
                 </li>
                 <!--end::Messages Dropdown Menu-->
+
                 <!--begin::Notifications Dropdown Menu-->
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-bs-toggle="dropdown" href="#">
@@ -186,6 +187,7 @@
                     </div>
                 </li>
                 <!--end::Notifications Dropdown Menu-->
+
                 <!--begin::Fullscreen Toggle-->
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-lte-toggle="fullscreen">
@@ -194,16 +196,17 @@
                     </a>
                 </li>
                 <!--end::Fullscreen Toggle-->
+
                 <!--begin::User Menu Dropdown-->
                 <li class="nav-item dropdown user-menu">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                        <img src="../../../dist/assets/img/user2-160x160.jpg" class="user-image rounded-circle shadow" alt="User Image">
+                        <img src="https://placehold.co/100x100" class="user-image rounded-circle shadow" alt="User Image">
                         <span class="d-none d-md-inline">Alexander Pierce</span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                         <!--begin::User Image-->
                         <li class="user-header text-bg-primary">
-                            <img src="../../../dist/assets/img/user2-160x160.jpg" class="rounded-circle shadow" alt="User Image">
+                            <img src="https://placehold.co/100x100" class="rounded-circle shadow" alt="User Image">
                             <p>
 
                                 Alexander Pierce - Web Developer
@@ -212,6 +215,7 @@
                             </p>
                         </li>
                         <!--end::User Image-->
+
                         <!--begin::Menu Body-->
                         <li class="user-body">
                             <!--begin::Row-->
@@ -229,6 +233,7 @@
                             <!--end::Row-->
                         </li>
                         <!--end::Menu Body-->
+
                         <!--begin::Menu Footer-->
                         <li class="user-footer">
                             <a href="#" class="btn btn-default btn-flat">Profile</a>
@@ -242,6 +247,7 @@
             <!--end::End Navbar Links-->
         </div>
         <!--end::Container-->
+
     </nav>
     <!--end::Header-->
     <!--begin::Sidebar-->
@@ -251,7 +257,7 @@
             <!--begin::Brand Link-->
             <a class='brand-link' href='/dist/pages/'>
                 <!--begin::Brand Image-->
-                <img src="../../../dist/assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image opacity-75 shadow">
+                <img src="https://placehold.co/100x100" alt="AdminLTE Logo" class="brand-image opacity-75 shadow">
                 <!--end::Brand Image-->
                 <!--begin::Brand Text-->
                 <span class="brand-text fw-light">{{ config('app.name', 'Laravel') }}</span>
