@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import path from 'path'
 
 export default defineConfig({
     plugins: [
@@ -13,9 +14,9 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '~bootstrap': '../../node_modules/bootstrap',
-            '~admin-lte': '.../../node_modules/admin-lte',
-            '~fontawesome': '../../node_modules/@fortawesome/fontawesome-free',
+            '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+            '~admin-lte': path.resolve(__dirname, 'node_modules/admin-lte'),
+            '~fontawesome': path.resolve(__dirname, 'node_modules/@fortawesome/fontawesome-free'),
         }
     },
 });
