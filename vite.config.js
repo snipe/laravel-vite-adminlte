@@ -11,4 +11,11 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    resolve: {
+        alias: {
+            '~bootstrap': '../../node_modules/bootstrap',
+            '~admin-lte': '.../../node_modules/admin-lte',
+            '~fontawesome': '../../node_modules/@fortawesome/fontawesome-free',
+        }
+    },
 });
