@@ -4,8 +4,8 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~admin-lte/src/scss/adminlte.scss';
+// Admin LTE (which also loads Bootstrap)
+@import '~admin-lte/src/scss/adminlte';
 
 // for FontAwesome v6+
 $fa-font-path: '~fontawesome/webfonts';
