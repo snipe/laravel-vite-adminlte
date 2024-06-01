@@ -5,4 +5,11 @@
 @import 'variables';
 
 // Bootstrap
-@import 'bootstrap/scss/bootstrap';
+@import '~admin-lte/src/scss/adminlte.scss';
+
+// for FontAwesome v6+
+$fa-font-path: '~fontawesome/webfonts';
+@import '~fontawesome/scss/fontawesome';
+@import '~fontawesome/scss/brands';
+@import '~fontawesome/scss/solid';
+
